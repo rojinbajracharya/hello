@@ -1,0 +1,29 @@
+#db/seeds 
+
+# PREFERENCE_INGREDIENT_SELECTION data
+# Add data PREFERENCE_INGREDIENT_SELECTION seed
+
+PREFERENCE_INGREDIENT_SELECTION = [{:SELECTED_PREFERENCE_ID => '101', :INGREDIENT_NAME => 'CHICKEN',:YES => true, :NO => false},
+            {:SELECTED_PREFERENCE_ID => '102', :INGREDIENT_NAME => 'BEEF', :YES => true, :NO => false},
+            {:SELECTED_PREFERENCE_ID=> '103', :INGREDIENT_NAME => 'SHRIMPS', :YES => true, :NO => false},
+            {:SELECTED_PREFERENCE_ID => '104',  :INGREDIENT_NAME => 'FISH', :YES => true, :NO => false},
+            {:SELECTED_PREFERENCE_ID => '105',  :INGREDIENT_NAME => 'PORK', :YES => true, :NO => false},
+            {:SELECTED_PREFERENCE_ID => '106', :INGREDIENT_NAME=> 'LOW SODIUM', :YES => true, :NO => false},
+            {:SELECTED_PREFERENCE_ID => '107', :INGREDIENT_NAME => 'LOW SUGAR', :YES => true, :NO => false},
+            {:SELECTED_PREFERENCE_ID => '108', :INGREDIENT_NAME => 'SWEETENER', :YES => true, :NO => false},
+            {:SELECTED_PREFERENCE_ID => '109',  :INGREDIENT_NAME => 'LOW FAT', :YES => true, :NO => false},
+            {:SELECTED_PREFERENCE_ID => '110',  :INGREDIENT_NAME => 'DAILY PRODUCT', :YES => true, :NO => false},
+            {:SELECTED_PREFERENCE_ID => '111', :INGREDIENT_NAME=> 'NUTS', :YES => true, :NO => false},
+            {:SELECTED_PREFERENCE_ID => '112',  :INGREDIENT_NAME => 'SPICY', :YES => true, :NO => false},
+            {:SELECTED_PREFERENCE_ID=> '113',  :INGREDIENT_NAME => 'VETGETARIAN', :YES => true, :NO => false},
+                                                   
+                                                                                            
+                                                    
+                                                    
+        ]                                           
+                                                                
+preference_ingredient_seclection.each do |PREFERENCE_INGREDIENT_SELECTION|
+  preference_ingredient_selection.create!(PREFERENCE_INGREDIENT_SELECTION)
+end                                 
+        
+
