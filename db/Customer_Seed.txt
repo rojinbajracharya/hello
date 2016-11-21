@@ -1,0 +1,49 @@
+#Customer_data_Seed
+
+CUSTOMER = [{:CUSTOMER_ID => '601', :CUSTMR_Fname => 'Anne', :CUSTMR_Lname => 'Alkins', :STREET => '413 Shady Lane', :CITY => 'ST.PETER',
+             :PHONE_NUM => '727-3396', DELIVERY_DATE => '26-Jun-16'},
+
+          {:CUSTOMER_ID => '602', :CUSTMR_Fname => 'Audrey', :CUSTMR_Lname => 'Allabarton', :STREET => '5685 2nd Avenue', :CITY => 'ST.PETER', 
+             :PHONE_NUM => '985-0859', :DELIVERY_DATE => '26-Jun-16'},   
+
+          {:CUSTOMER_ID => '603', :CUSTMR_Fname => Ava  , :CUSTMR_Lname => Allabush,:STREET => '786Virginia', :CITY => 'ST.PETER', 
+            :PHONE_NUM => '633-3361', :DELIVERY_DATE => '26-Jun-16'},
+
+          {:CUSTOMER_ID => '604', :CUSTMR_Fname => 'Bella', :CUSTMR_Lname => 'Benger', :STREET => '432 Monroe Drive' :CITY => 'ST.PETER', 
+             :PHONE_NUM => '676-4975', :DELIVERY_DATE => '26-Jun-16'}, 
+
+           {:CUSTOMER_ID => '605', :CUSTMR_Fname => 'Bernadette', :CUSTMR_Lname => 'Benger', :STREET => '12 North Avenue' :CITY => 'ST.PETER',
+            :PHONE_NUM => '910-8869', :DELIVERY_DATE => '26-Jun-16'},
+
+          {:CUSTOMER_ID => '606', :CUSTMR_Fname => 'Carol', :CUSTMR_Lname => 'Berkowitz', :STREET => '679 Madison Court' :CITY => 'ST.PETER',
+           :PHONE_NUM => '326-1216', :DELIVERY_DATE => '26-Jun-16'},   
+
+          {:CUSTOMER_ID => '607', :CUSTMR_Fname => 'Carolin', :CUSTMR_Lname => 'Cheale', :STREET => '245 North Avenue' :CITY => 'ST.PETER', 
+           :PHONE_NUM => '724-8479',: DELIVERY_DATE => '26-Jun-16'},
+
+          {:CUSTOMER_ID => '608', :CUSTMR_Fname => 'Colin', :CUSTMR_Lname => 'Cheasman', :STREET => '136 King Street' :CITY => 'ST.PETER', 
+            :PHONE_NUM =>  '572-3342', :DELIVERY_DATE => '27-Jun-16'},
+
+          {:CUSTOMER_ID => '609', :CUSTMR_Fname => 'Connor', :CUSTMR_Lname => 'Cheater', :STREET => '334 Willow Drive' :CITY => 'ST.PETER',
+            :PHONE_NUM => '343-1274', :DELIVERY_DATE => '27-Jun-16'},
+
+          {:CUSTOMER_ID => '610', :CUSTMR_Fname => 'Dan', :CUSTMR_Lname => 'Eisenburger', :STREET => '413  Heritage Drive' :CITY => 'ST.PETER',
+           :PHONE_NUM => '292-9442', :DELIVERY_DATE => '27-Jun-16'},   
+
+          {:CUSTOMER_ID => '611', :CUSTMR_Fname => 'David', :CUSTMR_Lname => 'Eisig', :STREET => '6578 Clark Street' :CITY => 'ST.PETER', 
+            :PHONE_NUM => '343-6704', :DELIVERY_DATE => '27-Jun-16'},
+
+          {:CUSTOMER_ID => '612', :CUSTMR_Fname => 'Dominic', :CUSTMR_Lname => 'Eisikovitsh', :STREET => '3221 8th Street' :CITY => 'ST.PETER', 
+            :PHONE_NUM => '156-9392', :DELIVERY_DATE => '28-Jun-16'}, 
+
+           {:CUSTOMER_ID => '613', :CUSTMR_Fname => 'Dylan', :CUSTMR_Lname => 'Eisikowitch', :STREET => '7122 Warren Avenue' :CITY => 'ST.PETER',
+            :PHONE_NUM => '276-3318', :DELIVERY_DATE => '28-Jun-16'},
+
+          
+    ] 
+
+customer.each do |CUSTOMER|
+  customer.create!(CUSTOMER)
+end                                                                                        
+
+                                                                                                                                                                        
