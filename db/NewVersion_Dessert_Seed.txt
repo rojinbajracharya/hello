@@ -1,0 +1,19 @@
+#Dessert = MEAL_ID,  Dessert_name, Dessert_description, 
+
+Desearte = [{:product_id => '301', :product_name => 'CHOCOLATE_CAKE', :ingredients => 'chocolate, all-purpose flower, nuts, butter'
+                 :CARBS => '45', :price => 25, :active true},
+          {:product_id => '302', :product_name => 'BANANA_CAKE', :ingredients => 'BANANA, all purpose flour, nuts, sugar,butter',
+                 :CARBS => '327', :price => 25, :active true},
+          {:product_id => '303', :product_name => 'PUMKIN_CUSTARD', :ingredients => 'PUMKIN, egg, sugar, coconut milk',
+                :CARBS => '45.7', :price => 45, :active true},
+          {:product_id => '304', :product_name => 'TONG_YOT', :ingredients => 'egg yolk blanded with wheat, cooked in sugar syrup',
+                :CARBS => '57', :price => '35',:active true},
+          {:product_id => '45', :product_name => 'TONG_YIP', :ingredients => 'egg yolk blanded with wheat, cooked in sugar syrup'
+                :CARBS => '57', :price => '35', :active true},
+          
+      ]
+
+dessert.each do |Dessert|
+  dessert.create!(Dessert)
+
+end
