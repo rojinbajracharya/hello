@@ -12,15 +12,15 @@ Main_course = [
                 potatos,salt, suger, coconut milk', :CARBS => '52', :price => 30, :active true},
               {:product_id => '405', :product_name => 'MUSAMAN_CURRY', :ingredients => 'curry past, meat of your choices,onion,
                 potato,redchily,coconut milk', :CARBS => '52', :price => 30, :active true},
-              {:product_id => '406', :product_name => 'FRY_RICE', :ingredients => 'MEAT OF YOUR CHOICES,GREEN ONION,GREEN BEANS,
-                 TOMATO,EGG', :CARBS => '80', :price => 30, :active true},
-              {:product_id => '407', :product_name => 'STIR_FRY_NOODLE' :ingredients => 'MEAT OF YOUR CHOICES, WHITE NOODLE,
-                SOY SOURCE, SUGAR, VETGETABLE',:CARBS => '108', :price => 30, :active true}, 
+              {:product_id => '406', :product_name => 'FRY_RICE', :ingredients => 'meat of your choices,green onion,green beans,
+                 tomato,egg', :CARBS => '80', :price => 30, :active true},
+              {:product_id => '407', :product_name => 'STIR_FRY_NOODLE' :ingredients => 'meat of your choices, white noodle,
+                soy source, sugar, vetgetable', :CARBS => '108', :price => 30, :active true}, 
           ]
           
                                                                                                             
-main_course.each do |MAIN_COURSE|
-  mainn_course.create!(MAIN_COURSE)
+main_course.each do |Main_course|
+  mainn_course.create!(Main_course)
 end                                                                                                     
                                                                                                      
                                                                                                      
