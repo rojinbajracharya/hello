@@ -1,20 +1,21 @@
 
 #Appetizer data MEAL_ID, APPETIZE NAME, DESCRIPTION, CARBS, PRICE
 
-APPETIZER = [{:MEAL_ID => '501', :APPTZR_NAME => 'GRILL_SATE', :APPTZR_INGREDIENT_DESCPT => 'MEAT OF YOUR 		CHOICE, CURRY POWDER, SALT, SUGER,COCONUT MILK, CHOPED NUT, CUCUMBER SALAD SIDE DISH',
-                :CARBS => '0.36', :250_GRM => '$30', :500_GRM => '45', :1000_GRM => 50},
-	     {:MEAL_ID => '502', :APPETZR_NAME => 'EGG_ROLE', :APPTZR_INGREDIENT_DESCPT => 'MIXED VEGETABLE,                 NOODLE, YOUR CHOICES OF MEAT',:CARBS => , :GRM_250 => , :GRM_500 => , :GRM_100 => },
-	     {:MEAL_ID => '503', :APPETZR_NAME => 'EGG_ROLE', :APPTZR_INGREDIENT_DESCPT => 'MIXED VEGETABLE,                 NOODLE, YOUR CHOICES OF MEAT',:CARBS => , :GRM_250 => , :GRM_500 => , :GRM_100 => },
-	     {:MEAL_ID => '504', :APPETZR_NAME => 'EGG_ROLE', :APPTZR_INGREDIENT_DESCPT => 'MIXED VEGETABLE,                 NOODLE, YOUR CHOICES OF MEAT',:CARBS => , :GRM_250 => , :GRM_500 => , :GRM_100 => },
-	     {:MEAL_ID => '505', :APPETZR_NAME => 'EGG_ROLE', :APPTZR_INGREDIENT_DESCPT => 'MIXED VEGETABLE,                 NOODLE, YOUR CHOICES OF MEAT',:CARBS => , :GRM_250 => , :GRM_500 => , :GRM_100 => },
-	     {:MEAL_ID => '506', :APPETZR_NAME => 'WANTON_SOUP', :APPTZR_INGREDIENT_DESCPT => 'WONTON_SHEET                STUFF WITH YOUR CHOICES OF MEAT,VETGETABLE', :CARBS => '14.24' :GRM_250 => '15', :GRM_500 =>                    '25', :GRM_100 => '30'},
+Appetizer = [{:product_id => '501', :product_name => 'GRILL_SATE', :ingredients => 'meat of your choice, yellow      				    curry powder, coconut milk, salt, sugar, cucumber salad side dish',                  
+                    :CARBS => '0.36', :price => 30, active: true},
+	     {:product_id => '502', :product_name => 'EGG_ROLE', :ingredients => 'mixed vegetable, ground meat of your choice, 			       wonton sheet', :CARBS => '15.20', :price => 15, active: true},
+	     {:product_id => '503', :product_name => 'PAPAYA SALAD', :ingredients => 'Choped green papaya, tomato, green 				beans, dry_shrimps, garlic, sugar, fish source', :CARBS => 22 , :price => 20, active: true},
+	     {:product_id => '504', :product_name => 'CURRY PUFF', :ingredients => 'ground meat of your choice, curry powder, mix 			with chopped yam, onion,  salt, sugar, pepper, wrapped with all-purpose flower, deep fry',
+	              :CARBS => '15.2', :price => 20, active: true},
+	     {:product_id => '505', :product_name => 'TOM YUM SOUP', :ingredients => 'Shrimps, or chicken, lemmon grass, lime 				juice, mushrooms,tomato,salt, hot chilli', :CARBS => '8.56' , :price => 20, active: true },
+	     {:product_id => '506', :product_name => 'WANTON_SOUP', :ingredients => 'wonton sheet stuffed with ground shrimp, or 			ground chicken, green onion', :CARBS => '14.24' :price => 20, active: true},
         ]
 
 
 
 
-appetizer.each do |APPETIZER|
-  appetizer.create!(APPETIZER)
+appetizer.each do |Appetizer|
+  appetizer.create!(Appetizer)
 
 end
 
