@@ -3,11 +3,11 @@
 class CreateOrderItems < ActiveRecord::Migration
   def change
     create_table :order_items do |t|
-      t.references :product, index: true
-      t.references :order, index: true
-      t.column :unit_price, decimal, precision: 12, scale: 3
+      t.references :product, :index true
+      t.references :order, :index true
+      t.column :unit_price, decimal, :precision 12, :scale 3
       t.column :quantity, integer
-      t.column :total_price, decimal, precision: 12, scale: 3
+      t.column :total_price, decimal, :precision 12, :scale 3
 
       t.timestamps
     end
