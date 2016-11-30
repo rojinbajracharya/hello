@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <h1 style="text-align:center;"><b>Appetizers</b></h1>
+  </head>
+  <body>
+      <%= @appitizer.each do |d| %> 
+    <br>
+        <td>
+            <%= "Food Name: "  %>
+        </td>
+         <td>
+          <%= d.title %>
+        </td>
+        <br>
+        <td>
+            <%= "Ingredients: "  %>
+        </td>
+         <td>
+          <%= d.description  %>
+        </td>
+                <br>
+            <%= "Carbs: "  %>
+        </td>
+         <td>
+          <%= d.carbs  %>
+        </td>
+                <br>
+            <%= "Price: $"  %>
+        </td>
+         <td>
+          <%= d.price  %>
+        </td>
+         <br> 
+         <td>
+          <%= link_to "Add to cart:  #{d.title}"  %>
+        </td>
+    <p style="text-align:right"> <a href="https://our-project-markwilke.c9users.io/welcome/dessert"><%=image_tag(d.image, width:"300", height:"200")%></a> </p>
+    <br>
+    <br>
+    <br>
+        <% end %>
+
+  </body>
+</html>
